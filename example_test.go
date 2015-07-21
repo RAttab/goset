@@ -3,7 +3,7 @@
 package set_test
 
 import (
-	"github.com/datacratic/goset"
+	"github.com/RAttab/goset"
 
 	"fmt"
 )
