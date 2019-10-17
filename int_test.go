@@ -58,7 +58,7 @@ func benchIntIntersect(bench *testing.B, n, m int) {
 		a.Put(int64(i))
 	}
 
-	for i := 0; i < n; i = i + 2 {
+	for i := 0; i < n; i += 2 {
 		b.Put(int64(i))
 		m--
 	}

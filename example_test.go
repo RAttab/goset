@@ -9,7 +9,6 @@ import (
 )
 
 func Example() {
-
 	x := set.NewString("a", "b", "c")
 
 	fmt.Println("len(x):", len(x))
@@ -36,7 +35,6 @@ func Example() {
 }
 
 func ExampleString_Union() {
-
 	x := set.NewString("a", "b", "c")
 	y := set.NewString("b", "c", "d")
 
@@ -47,7 +45,6 @@ func ExampleString_Union() {
 }
 
 func ExampleString_Intersect() {
-
 	x := set.NewString("a", "b", "c")
 	y := set.NewString("b", "c", "d")
 
@@ -58,7 +55,6 @@ func ExampleString_Intersect() {
 }
 
 func ExampleString_Difference() {
-
 	x := set.NewString("a", "b", "c")
 	y := set.NewString("b", "c", "d")
 
@@ -69,7 +65,6 @@ func ExampleString_Difference() {
 }
 
 func ExampleNewUint() {
-
 	unsigned := set.NewUint(uint64(1), uint64(2), uint64(3))
 	fmt.Println("unsigned:", unsigned)
 
@@ -78,7 +73,6 @@ func ExampleNewUint() {
 }
 
 func ExampleNewInt() {
-
 	signed := set.NewInt(int64(-1), int64(-2), int64(-3))
 	fmt.Println("signed:", signed)
 
