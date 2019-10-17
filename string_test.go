@@ -59,7 +59,7 @@ func benchStringIntersect(bench *testing.B, n, m int) {
 		a.Put(strconv.FormatInt(int64(i), 10))
 	}
 
-	for i := 0; i < n; i = i + 2 {
+	for i := 0; i < n; i += 2 {
 		b.Put(strconv.FormatInt(int64(i), 10))
 		m--
 	}
